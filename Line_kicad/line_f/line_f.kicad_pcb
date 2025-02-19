@@ -2515,6 +2515,7 @@
 			(at 1.2625 -0.91 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "a07e83f2-c50b-47da-8f72-a06f5d4a0103")
 			(effects
 				(font
@@ -3377,32 +3378,6 @@
 			(layer "F.Fab")
 			(uuid "7f21082b-a4ba-4652-85bb-dc11d15bed9b")
 		)
-		(fp_text user "MC"
-			(at -4.27 -3.12 180)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "0d593410-75b6-4d01-8bb1-97ac749441fb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
-				)
-				(justify left bottom)
-			)
-		)
-		(fp_text user "M1"
-			(at -4.27 -3.12 180)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "319bdae9-c068-45d5-8bd5-0ff642b0d441")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
-				)
-				(justify left bottom)
-			)
-		)
 		(pad "1" thru_hole roundrect
 			(at -1.36 -4.48 90)
 			(size 1.7 2)
@@ -3435,6 +3410,7 @@
 			(at -7.82 10.26 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "7b60f545-281f-4d87-b560-c092203b7894")
 			(effects
 				(font
@@ -3820,7 +3796,7 @@
 			(uuid "8571151d-05f6-4cee-aaf6-b2c1eb78bad8")
 		)
 		(fp_text user "A_ANALOG"
-			(at -19.3875 8.44 0)
+			(at -17.78 8.3 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "b2b47203-d221-4c09-8ce1-350456b3dcd4")
@@ -4384,6 +4360,7 @@
 			(at 0 -0.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "4bd57d33-1f65-4de4-be1c-f087f86d4c0e")
 			(effects
 				(font
@@ -6443,32 +6420,6 @@
 			)
 			(layer "F.Fab")
 			(uuid "6ec5e15e-d971-4b68-af3f-18b7a49744eb")
-		)
-		(fp_text user "MC"
-			(at -4.27 -3.12 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "4092191d-36f2-4003-ad1b-949fc8dc1a5e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
-				)
-				(justify left bottom)
-			)
-		)
-		(fp_text user "M1"
-			(at -4.27 -3.12 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "a0861f68-f263-4267-b69d-f691da3c9644")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
-				)
-				(justify left bottom)
-			)
 		)
 		(pad "1" thru_hole roundrect
 			(at -1.36 -4.48 270)
