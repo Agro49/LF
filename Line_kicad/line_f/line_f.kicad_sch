@@ -7246,7 +7246,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LINE_F_FOOT_LIB:BATTERY_SW_FOOT"
+		(property "Footprint" "LINE_F_FOOT_LIB:battery_sw"
 			(at 82.55 109.22 0)
 			(effects
 				(font
