@@ -985,7 +985,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin no_connect line
 					(at -20.32 -3.81 0)
 					(length 2.54)
 					(name "B5"
@@ -1111,7 +1111,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin no_connect line
 					(at 7.62 16.51 180)
 					(length 2.54)
 					(name "B2"
@@ -1309,7 +1309,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin no_connect line
 					(at 7.62 -8.89 180)
 					(length 2.54)
 					(name "A0"
@@ -1327,7 +1327,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin no_connect line
 					(at 7.62 -13.97 180)
 					(length 2.54)
 					(name "C15"
@@ -1345,7 +1345,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin no_connect line
 					(at 7.62 -16.51 180)
 					(length 2.54)
 					(name "C14"
@@ -1363,7 +1363,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin no_connect line
 					(at 7.62 -19.05 180)
 					(length 2.54)
 					(name "C13"
@@ -1628,7 +1628,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin no_connect line
 					(at 7.62 -11.43 180)
 					(length 2.54)
 					(name "NRST"
@@ -1646,7 +1646,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin no_connect line
 					(at 7.62 -21.59 180)
 					(length 2.54)
 					(name "Vbat"
@@ -3732,10 +3732,6 @@
 		(uuid "19347204-c7df-4030-832f-2f861490c54f")
 	)
 	(no_connect
-		(at 190.5 143.51)
-		(uuid "26efe51f-2663-4f8c-b6af-a1b9321657e6")
-	)
-	(no_connect
 		(at 246.38 100.33)
 		(uuid "3ec9f485-2fb6-4d73-8c58-35e518c53718")
 	)
@@ -3746,34 +3742,6 @@
 	(no_connect
 		(at 162.56 146.05)
 		(uuid "7bbea556-a752-4887-a71d-c6021fb371e2")
-	)
-	(no_connect
-		(at 190.5 133.35)
-		(uuid "83ed4942-b6ee-404f-b4e4-1a84f1e20b99")
-	)
-	(no_connect
-		(at 190.5 146.05)
-		(uuid "871de457-59d2-4393-b00e-3de7fbb67cab")
-	)
-	(no_connect
-		(at 190.5 138.43)
-		(uuid "c273f330-6617-415f-8f08-7e71c4fdade3")
-	)
-	(no_connect
-		(at 190.5 140.97)
-		(uuid "d994b6c3-674a-4402-b99c-1c3f1feae1a0")
-	)
-	(no_connect
-		(at 190.5 107.95)
-		(uuid "e47ee44b-9adc-4358-8c55-c8c0bd32f121")
-	)
-	(no_connect
-		(at 162.56 128.27)
-		(uuid "e5a8725e-bade-4e19-97ce-640676639731")
-	)
-	(no_connect
-		(at 190.5 135.89)
-		(uuid "f006ba3a-8e8f-4e80-ad28-e55dbc29fe71")
 	)
 	(no_connect
 		(at 246.38 97.79)
@@ -3837,6 +3805,36 @@
 		)
 		(uuid "8109bcd8-3c59-4c29-892f-4801a630a8cc")
 	)
+	(text "Verified\n"
+		(exclude_from_sim no)
+		(at 126.238 74.676 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a9dd515b-4844-4bb6-bfaf-0c16eb1981ac")
+	)
+	(text "Verified\n"
+		(exclude_from_sim no)
+		(at 81.28 83.312 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b73c6b4e-6210-4b27-9aba-e2faee4bf8ac")
+	)
+	(text "Verified\n"
+		(exclude_from_sim no)
+		(at 172.974 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ddc4d752-0a4a-4cfa-8cbc-ad6894281792")
+	)
 	(text "SWITCHES\n"
 		(exclude_from_sim no)
 		(at 125.476 142.24 0)
@@ -3866,6 +3864,16 @@
 			)
 		)
 		(uuid "eb3fee7d-8a84-48f0-a7a4-b7a14ecffd11")
+	)
+	(text "Verified\n"
+		(exclude_from_sim no)
+		(at 232.41 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ebd55480-0da1-4837-b80f-1964a36d85c5")
 	)
 	(global_label "SW_TRY"
 		(shape input)
@@ -7035,7 +7043,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LINE_F_FOOT_LIB:TB6612FNG_LINE"
+		(property "Footprint" "ROB-14450:MODULE_ROB-14450"
 			(at 231.14 92.71 0)
 			(effects
 				(font
