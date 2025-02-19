@@ -349,7 +349,7 @@
 		(layer "F.Fab")
 		(uuid "7b57beac-01da-4e4b-bf7c-f43cc5cf1b98")
 	)
-	(fp_text user "M1"
+	(fp_text user "MC"
 		(at -4.27 -3.12 90)
 		(unlocked yes)
 		(layer "F.SilkS")
