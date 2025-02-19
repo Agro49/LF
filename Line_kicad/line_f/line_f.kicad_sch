@@ -3847,6 +3847,16 @@
 		)
 		(uuid "ea9cee47-41d6-4538-900a-2018a7adaf86")
 	)
+	(text "Verified\n"
+		(exclude_from_sim no)
+		(at 39.37 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "eb27e07f-ff71-4b9b-a3e2-425f5529c1e3")
+	)
 	(text "POWER STUFF\n"
 		(exclude_from_sim no)
 		(at 81.788 132.842 0)
