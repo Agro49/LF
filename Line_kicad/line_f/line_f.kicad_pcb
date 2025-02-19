@@ -6610,6 +6610,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "Run2'"
+		(at 154.5 180 0)
+		(layer "F.Mask")
+		(uuid "ad39f9fd-d2cd-49df-9d0f-f3f73c76edb5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(group ""
 		(uuid "475a8461-81db-4151-b350-ae4e75f4cccf")
 		(members "2b246de5-1c3e-4b08-8844-68d2926f8eae")
