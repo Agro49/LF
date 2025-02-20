@@ -1666,257 +1666,6 @@
 				)
 			)
 		)
-		(symbol "LINE_F_SYM_LIB:LSA_ANALOG"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "LSA_ANALOG"
-				(at -5.08 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LSA_ANALOG_1_0"
-				(rectangle
-					(start -15.24 8.89)
-					(end 15.24 -2.54)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "LSA_ANALOG_1_1"
-				(text "PORT A\n"
-					(at 6.35 7.62 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -12.7 -5.08 90)
-					(length 2.54)
-					(name "TX"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 -5.08 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -10.16 -5.08 90)
-					(length 2.54)
-					(name "RX"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -7.62 -5.08 90)
-					(length 2.54)
-					(name "UEN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -5.08 -5.08 90)
-					(length 2.54)
-					(name "AN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -2.54 -5.08 90)
-					(length 2.54)
-					(name "JPULSE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 1.27 -5.08 90)
-					(length 2.54)
-					(name "Orphan1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 3.81 -5.08 90)
-					(length 2.54)
-					(name "Orphan2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 6.35 -5.08 90)
-					(length 2.54)
-					(name "Orphan"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 -5.08 90)
-					(length 2.54)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "LINE_F_SYM_LIB:LSA_DIGITAL"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3784,8 +3533,8 @@
 		(uuid 92fe5237-9da7-4ea8-bfe9-5292fc2d2525)
 	)
 	(rectangle
-		(start 25.4 68.58)
-		(end 60.96 149.86)
+		(start 25.4 77.47)
+		(end 60.96 132.08)
 		(stroke
 			(width 0)
 			(type dash)
@@ -3849,7 +3598,7 @@
 	)
 	(global_label "D5"
 		(shape input)
-		(at 41.91 109.22 270)
+		(at 41.91 91.44 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3859,7 +3608,7 @@
 		)
 		(uuid "05b4071b-5211-4b27-bac6-61869a155802")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.91 114.6847 90)
+			(at 41.91 96.9047 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3915,7 +3664,7 @@
 	)
 	(global_label "D6"
 		(shape input)
-		(at 44.45 109.22 270)
+		(at 44.45 91.44 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3925,7 +3674,7 @@
 		)
 		(uuid "0cd1e45e-790a-49c7-8242-aef8cafc22d1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.45 114.6847 90)
+			(at 44.45 96.9047 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4025,7 +3774,7 @@
 	)
 	(global_label "LSA_RX"
 		(shape input)
-		(at 31.75 135.89 270)
+		(at 31.75 118.11 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4035,7 +3784,7 @@
 		)
 		(uuid "178797eb-09df-4716-aede-6c2a77d34952")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.75 145.6485 90)
+			(at 31.75 127.8685 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4135,7 +3884,7 @@
 	)
 	(global_label "D3"
 		(shape input)
-		(at 36.83 109.22 270)
+		(at 36.83 91.44 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4145,7 +3894,7 @@
 		)
 		(uuid "2298a322-b2df-4d2e-9e36-f23a92761709")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.83 114.6847 90)
+			(at 36.83 96.9047 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4223,7 +3972,7 @@
 	)
 	(global_label "V_BAT"
 		(shape input)
-		(at 52.07 135.89 270)
+		(at 52.07 118.11 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4233,7 +3982,7 @@
 		)
 		(uuid "30bb7378-e086-4a76-ab53-a5d749635094")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.07 144.2576 90)
+			(at 52.07 126.4776 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4331,50 +4080,6 @@
 			)
 		)
 	)
-	(global_label "LSA_AN"
-		(shape input)
-		(at 36.83 83.82 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3e34acd8-dc96-4efa-a08f-ad0be13a993a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.83 93.5181 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "V_BAT"
-		(shape input)
-		(at 52.07 83.82 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3eef579c-719c-4855-a5be-0df6c7eb54aa")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.07 92.1876 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "AI2"
 		(shape input)
 		(at 190.5 125.73 0)
@@ -4443,7 +4148,7 @@
 	)
 	(global_label "D4"
 		(shape input)
-		(at 39.37 109.22 270)
+		(at 39.37 91.44 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4453,7 +4158,7 @@
 		)
 		(uuid "45962962-9be8-42c5-ae9e-03898292fb2f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 39.37 114.6847 90)
+			(at 39.37 96.9047 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4520,28 +4225,6 @@
 		(uuid "55686d2a-34aa-477e-94a4-8675806080e6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 69.7677 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "C_GND"
-		(shape input)
-		(at 54.61 83.82 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "563d1550-856c-4058-9c4f-5a6df9a7d957")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 54.61 92.9133 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4927,7 +4610,7 @@
 	)
 	(global_label "V_BAT"
 		(shape input)
-		(at 50.8 109.22 270)
+		(at 50.8 91.44 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4937,7 +4620,7 @@
 		)
 		(uuid "8467009e-18e7-4e41-b114-a987d66a6331")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.8 117.5876 90)
+			(at 50.8 99.8076 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5035,31 +4718,9 @@
 			)
 		)
 	)
-	(global_label "JPULSE"
-		(shape input)
-		(at 39.37 83.82 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8c9a4f5d-40ff-4dab-94b6-e9752b699385")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 39.37 93.7599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "D2"
 		(shape input)
-		(at 34.29 109.22 270)
+		(at 34.29 91.44 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5069,7 +4730,7 @@
 		)
 		(uuid "8d60b271-58a9-4594-8d7d-a8d3341ec2a9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 34.29 114.6847 90)
+			(at 34.29 96.9047 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5147,7 +4808,7 @@
 	)
 	(global_label "JPULSE"
 		(shape input)
-		(at 39.37 135.89 270)
+		(at 39.37 118.11 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5157,7 +4818,7 @@
 		)
 		(uuid "99ad8d2e-e36e-422a-ac6d-401e44a5c44e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 39.37 145.8299 90)
+			(at 39.37 128.0499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5213,7 +4874,7 @@
 	)
 	(global_label "D1"
 		(shape input)
-		(at 31.75 109.22 270)
+		(at 31.75 91.44 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5223,29 +4884,7 @@
 		)
 		(uuid "a0b91baa-2899-424f-b9fa-8f004c43e1b4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.75 114.6847 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LSA_AN"
-		(shape input)
-		(at 36.83 135.89 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a6a76bf4-b542-4a5d-9039-006936f10280")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.83 145.5881 90)
+			(at 31.75 96.9047 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5367,7 +5006,7 @@
 	)
 	(global_label "LSA_UEN"
 		(shape input)
-		(at 34.29 135.89 270)
+		(at 34.29 118.11 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5377,7 +5016,7 @@
 		)
 		(uuid "b28c1672-929e-4012-a6db-7f206c07087c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 34.29 146.979 90)
+			(at 34.29 129.199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5411,7 +5050,7 @@
 	)
 	(global_label "D7"
 		(shape input)
-		(at 46.99 109.22 270)
+		(at 46.99 91.44 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5421,7 +5060,29 @@
 		)
 		(uuid "b5464052-b168-4a36-87ab-5541a7d27566")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 46.99 114.6847 90)
+			(at 46.99 96.9047 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LSA_AN"
+		(shape input)
+		(at 36.83 118.11 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b62a2e88-f184-482d-a949-aa40a1176feb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 36.83 127.8081 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5477,7 +5138,7 @@
 	)
 	(global_label "LSA_TX"
 		(shape input)
-		(at 29.21 135.89 270)
+		(at 29.21 118.11 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5487,7 +5148,7 @@
 		)
 		(uuid "be1079cf-96ed-4c95-b505-f220e54718e9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.21 145.3461 90)
+			(at 29.21 127.5661 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5521,7 +5182,7 @@
 	)
 	(global_label "C_GND"
 		(shape input)
-		(at 54.61 135.89 270)
+		(at 54.61 118.11 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5531,7 +5192,7 @@
 		)
 		(uuid "c16af634-7554-44d8-9ac9-d4f4639afa10")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 54.61 144.9833 90)
+			(at 54.61 127.2033 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5543,7 +5204,7 @@
 	)
 	(global_label "D0"
 		(shape input)
-		(at 29.21 109.22 270)
+		(at 29.21 91.44 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5553,7 +5214,7 @@
 		)
 		(uuid "ce75a708-1d9b-43ba-8545-bd0a7e0e8ab3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.21 114.6847 90)
+			(at 29.21 96.9047 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5675,7 +5336,7 @@
 	)
 	(global_label "C_GND"
 		(shape input)
-		(at 53.34 109.22 270)
+		(at 53.34 91.44 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5685,7 +5346,7 @@
 		)
 		(uuid "e2f47ca7-0c28-4544-8c0a-e5d6bf6bdffa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 53.34 118.3133 90)
+			(at 53.34 100.5333 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5780,100 +5441,6 @@
 				)
 				(justify right)
 				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LINE_F_SYM_LIB:LSA_ANALOG")
-		(at 41.91 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0a3138df-ebb2-4ade-b5f3-47f2f508b6d3")
-		(property "Reference" "LSA_ANALOG1"
-			(at 58.42 74.9299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 58.42 76.835 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 41.91 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 41.91 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 41.91 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a980365b-b79b-46f3-8c41-122ccee7003c")
-		)
-		(pin "5"
-			(uuid "3cc8b200-1542-49e8-8d04-5009e5a4077a")
-		)
-		(pin "9"
-			(uuid "1a855433-30b3-4d1d-84c0-13c1a6462024")
-		)
-		(pin "7"
-			(uuid "8b5599f1-558a-415a-ac95-2c0f5cb2c59a")
-		)
-		(pin "2"
-			(uuid "a182dc4f-dcfe-48bd-a0f9-ba264f8bc5bd")
-		)
-		(pin "10"
-			(uuid "3150ae18-7b06-4df1-bb15-a10e2fc85775")
-		)
-		(pin "3"
-			(uuid "277d85e6-cb46-44e0-9cab-ad7fe1670776")
-		)
-		(pin "6"
-			(uuid "e2133e1b-b04a-4ae3-aaab-dc17600f60b8")
-		)
-		(pin "4"
-			(uuid "25a22b15-5e4c-4b83-a183-6e2b7c139541")
-		)
-		(pin "8"
-			(uuid "d154c49c-079f-480e-9e0e-f864b59ca8dd")
-		)
-		(instances
-			(project ""
-				(path "/c13c4e87-a023-4a7d-8b82-fe1a380f0003"
-					(reference "LSA_ANALOG1")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -6254,7 +5821,7 @@
 	)
 	(symbol
 		(lib_id "LINE_F_SYM_LIB:LSA_UART")
-		(at 35.56 132.08 0)
+		(at 35.56 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6262,7 +5829,7 @@
 		(dnp no)
 		(uuid "40a1fdb1-05da-48ee-ae4e-71dd9cd19b43")
 		(property "Reference" "LSA_UART1"
-			(at 30.48 123.952 0)
+			(at 30.48 106.172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6271,7 +5838,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 58.42 128.905 0)
+			(at 58.42 111.125 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6280,7 +5847,7 @@
 			)
 		)
 		(property "Footprint" "LINE_F_FOOT_LIB:LSA_UART"
-			(at 35.56 132.08 0)
+			(at 35.56 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6289,7 +5856,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 132.08 0)
+			(at 35.56 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6298,7 +5865,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 35.56 132.08 0)
+			(at 35.56 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6415,7 +5982,7 @@
 	)
 	(symbol
 		(lib_id "LINE_F_SYM_LIB:LSA_DIGITAL")
-		(at 29.21 106.68 0)
+		(at 29.21 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6423,7 +5990,7 @@
 		(dnp no)
 		(uuid "7ffe0ff4-7e75-420c-9ff5-64c82f3cbc84")
 		(property "Reference" "LSA_DIGITAL1"
-			(at 34.544 97.028 0)
+			(at 34.544 79.248 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6431,7 +5998,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 41.91 97.79 0)
+			(at 41.91 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6439,7 +6006,7 @@
 			)
 		)
 		(property "Footprint" "LINE_F_FOOT_LIB:LSA_DIGITAL"
-			(at 29.21 106.68 0)
+			(at 29.21 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6448,7 +6015,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 106.68 0)
+			(at 29.21 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6457,7 +6024,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 29.21 106.68 0)
+			(at 29.21 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
