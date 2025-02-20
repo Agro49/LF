@@ -3405,7 +3405,7 @@
 	(footprint "LINE_F_FOOT_LIB:push_button"
 		(layer "F.Cu")
 		(uuid "812a6ed6-7f5a-4598-8953-f734460ed5c4")
-		(at -43.048 171.268 90)
+		(at -43.548 168.588 90)
 		(property "Reference" "SW3"
 			(at 0.762 -3.302 90)
 			(unlocked yes)
@@ -3685,7 +3685,7 @@
 	(footprint "LINE_F_FOOT_LIB:push_button"
 		(layer "F.Cu")
 		(uuid "bd666491-5def-4e28-8df9-f10c6187c4d7")
-		(at -26.016 171.356 90)
+		(at -26.516 168.676 90)
 		(property "Reference" "SW4"
 			(at 0.762 -3.302 90)
 			(unlocked yes)
@@ -5144,7 +5144,7 @@
 	(footprint "LINE_F_FOOT_LIB:SLIDE SW"
 		(layer "F.Cu")
 		(uuid "cc046d16-5889-4e27-8006-4b74bf9dce47")
-		(at -132.5 176.18)
+		(at -130.59 172.08)
 		(property "Reference" "SW2"
 			(at -6.94 -3.79 0)
 			(unlocked yes)
@@ -5300,7 +5300,7 @@
 	(footprint "LINE_F_FOOT_LIB:RESISTOR_LINE"
 		(layer "F.Cu")
 		(uuid "d875c3f8-342a-423e-8f1a-e37360290395")
-		(at -109.17 174.03)
+		(at -107.26 169.93)
 		(property "Reference" "R1"
 			(at 0 -0.5 0)
 			(unlocked yes)
@@ -5931,8 +5931,8 @@
 		)
 	)
 	(gr_rect
-		(start -92 111.5)
-		(end -60 171.5)
+		(start -92 115.5)
+		(end -60 175.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -6026,8 +6026,8 @@
 		(uuid "52eb7988-1501-4e85-b6a5-d8d55b2afbb2")
 	)
 	(gr_line
-		(start -141.5 180)
-		(end -9.043476 180.18)
+		(start -136.5 177.5)
+		(end -9.043476 177.179999)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -6271,7 +6271,7 @@
 		(uuid "fec900e4-db79-42cc-9695-477757b1c901")
 	)
 	(gr_text "BTZ"
-		(at -22.5 179.18 0)
+		(at -18.5 172 0)
 		(layer "F.SilkS")
 		(uuid "db23d2d0-5fa7-47e9-8c76-723c0cecf464")
 		(effects
