@@ -5793,7 +5793,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a3138df-ebb2-4ade-b5f3-47f2f508b6d3")
-		(property "Reference" "LSA_ANALOG?"
+		(property "Reference" "LSA_ANALOG1"
 			(at 58.42 74.9299 0)
 			(effects
 				(font
@@ -5871,7 +5871,7 @@
 		(instances
 			(project ""
 				(path "/c13c4e87-a023-4a7d-8b82-fe1a380f0003"
-					(reference "LSA_ANALOG?")
+					(reference "LSA_ANALOG1")
 					(unit 1)
 				)
 			)
