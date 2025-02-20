@@ -1075,7 +1075,7 @@
 	(footprint "LINE_F_FOOT_LIB:LED_LINE"
 		(layer "F.Cu")
 		(uuid "4a2a9960-d3c5-497f-91c6-7835e9ce342d")
-		(at 31.95 171.31)
+		(at 59.91 167.81)
 		(property "Reference" "D1"
 			(at -3 -6 0)
 			(unlocked yes)
@@ -2510,7 +2510,7 @@
 	(footprint "LINE_F_FOOT_LIB:LSA_UART"
 		(layer "F.Cu")
 		(uuid "748ba2ab-abd6-4564-8df3-423c5f5ccf40")
-		(at 136.2 129.59)
+		(at 60.74 138.09)
 		(property "Reference" "LSA_UART1"
 			(at 1.2625 -0.91 0)
 			(unlocked yes)
@@ -3027,7 +3027,7 @@
 	(footprint "LINE_F_FOOT_LIB:connector_motor"
 		(layer "F.Cu")
 		(uuid "771dcf32-d9d1-4637-ae5c-ffe77109ea6c")
-		(at 149.48 152.18 90)
+		(at 127.48 146.18 90)
 		(property "Reference" "M2"
 			(at 0 -0.5 90)
 			(unlocked yes)
@@ -3405,7 +3405,7 @@
 	(footprint "LINE_F_FOOT_LIB:push_button"
 		(layer "F.Cu")
 		(uuid "812a6ed6-7f5a-4598-8953-f734460ed5c4")
-		(at 124 176.5 90)
+		(at 123.952 174.588 90)
 		(property "Reference" "SW3"
 			(at 0.762 -3.302 90)
 			(unlocked yes)
@@ -3560,7 +3560,7 @@
 	(footprint "LINE_F_FOOT_LIB:battery_sw"
 		(layer "F.Cu")
 		(uuid "96128417-d561-4438-af61-a098690c741c")
-		(at 35.5 132.315 -90)
+		(at 31 125.685 -90)
 		(property "Reference" "SW1"
 			(at 0.06 5.17 90)
 			(layer "F.SilkS")
@@ -3685,7 +3685,7 @@
 	(footprint "LINE_F_FOOT_LIB:push_button"
 		(layer "F.Cu")
 		(uuid "bd666491-5def-4e28-8df9-f10c6187c4d7")
-		(at 141.032 176.588 90)
+		(at 140.984 174.676 90)
 		(property "Reference" "SW4"
 			(at 0.762 -3.302 90)
 			(unlocked yes)
@@ -3840,7 +3840,7 @@
 	(footprint "LINE_F_FOOT_LIB:LSA_DIGITAL"
 		(layer "F.Cu")
 		(uuid "c7c20f9c-d4cb-4279-aa6d-f0f56f69545f")
-		(at 72.6 127.11)
+		(at 63.1 122.61)
 		(property "Reference" "LSA_DIGITAL1"
 			(at 0 -0.5 0)
 			(unlocked yes)
@@ -4357,7 +4357,7 @@
 	(footprint "LINE_F_FOOT_LIB:TB6612FNG_LINE"
 		(layer "F.Cu")
 		(uuid "c7e60630-6017-4541-ba4c-2eb5769b2d21")
-		(at 126.38 150.31)
+		(at 132.38 127.81)
 		(property "Reference" "U1"
 			(at 0.17 -8.12 0)
 			(layer "F.SilkS")
@@ -5555,7 +5555,7 @@
 	(footprint "LINE_F_FOOT_LIB:connector_motor"
 		(layer "F.Cu")
 		(uuid "fa9df8a6-6b2e-4c1b-b6b5-f8f28d25d2da")
-		(at 34.52 151.32 -90)
+		(at 57.52 146.36 -90)
 		(property "Reference" "M3"
 			(at 0 -0.5 -90)
 			(unlocked yes)
@@ -5943,7 +5943,7 @@
 	)
 	(gr_poly
 		(pts
-			(xy 25.5 186) (xy 160 186) (xy 160 114) (xy 114 114) (xy 114 43.5) (xy 161.5 43.5) (xy 161.5 26.5)
+			(xy 26.5 183.5) (xy 161 183.5) (xy 160 114) (xy 114 114) (xy 114 43.5) (xy 161.5 43.5) (xy 161.5 26.5)
 			(xy 24 26.5) (xy 24 44) (xy 68 44) (xy 68 115) (xy 25.5 115) (xy 25.5 186)
 		)
 		(stroke
@@ -5966,26 +5966,15 @@
 		(uuid "1ed2d49c-6a40-4df9-9860-5ffad6fbd507")
 	)
 	(gr_circle
-		(center 152 152.5)
-		(end 154 152.5)
+		(center 151.93837 161.01)
+		(end 152.70037 161.772)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(fill none)
 		(layer "Edge.Cuts")
-		(uuid "2f3386b3-dad1-4251-89ce-e511cb2fdd0e")
-	)
-	(gr_circle
-		(center 155.5 161)
-		(end 156.262 161.762)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(fill none)
-		(layer "Edge.Cuts")
-		(uuid "64ed4bea-1359-4a2e-acc8-63f55431eb46")
+		(uuid "66753b8e-4ac0-4e31-8c39-80a61473050d")
 	)
 	(gr_circle
 		(center 156 30.5)
@@ -6010,48 +5999,37 @@
 		(uuid "70dfce8a-d9d4-4d95-9d7d-dd43bf593c71")
 	)
 	(gr_circle
-		(center 32.5 151)
-		(end 34.5 151)
+		(center 33.43837 159.51)
+		(end 34.20037 160.272)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(fill none)
 		(layer "Edge.Cuts")
-		(uuid "723097c1-bd38-4726-8091-df6d30fb1bad")
+		(uuid "90724846-dda7-44ce-b0ea-3c74e97b9663")
 	)
 	(gr_circle
-		(center 29.016 159.51)
-		(end 29.778 160.272)
+		(center 152 144.5)
+		(end 152.762 145.262)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(fill none)
 		(layer "Edge.Cuts")
-		(uuid "76301a97-7913-4063-be23-01c1cc8005b2")
+		(uuid "a6052139-1ebd-433f-bd48-ab0be70f1ef9")
 	)
 	(gr_circle
-		(center 29.07763 143)
-		(end 29.83963 143.762)
+		(center 33.5 143)
+		(end 34.262 143.762)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(fill none)
 		(layer "Edge.Cuts")
-		(uuid "89fe08a2-8840-457e-a9b6-af5c7d86d085")
-	)
-	(gr_circle
-		(center 155.56163 144.49)
-		(end 156.32363 145.252)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(fill none)
-		(layer "Edge.Cuts")
-		(uuid "8f7317ef-389f-46d1-918a-f61003cf77e9")
+		(uuid "ae71c78c-0a13-4c40-982c-423edfaad3dd")
 	)
 	(gr_circle
 		(center 90.5 52.5)
@@ -6064,21 +6042,8 @@
 		(layer "Edge.Cuts")
 		(uuid "b6175f89-219c-4113-bac3-3c6c4984e872")
 	)
-	(gr_text "Run"
-		(at 154 183.5 0)
-		(layer "F.Cu")
-		(uuid "ba8cc258-d504-48b5-a38e-dfd57f62c7ba")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
 	(gr_text "BTZ"
-		(at 140 184 0)
+		(at 144.5 182.5 0)
 		(layer "F.SilkS")
 		(uuid "db23d2d0-5fa7-47e9-8c76-723c0cecf464")
 		(effects
@@ -6089,17 +6054,71 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Run2'"
-		(at 154.5 180 0)
-		(layer "F.Mask")
-		(uuid "ad39f9fd-d2cd-49df-9d0f-f3f73c76edb5")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left bottom)
+	(dimension
+		(type aligned)
+		(layer "F.Cu")
+		(uuid "3dcf8d10-b819-4e97-a450-3f9ed3a9c72a")
+		(pts
+			(xy 48.5 151) (xy 25.5 151)
 		)
+		(height 0)
+		(gr_text "23.0000 mm"
+			(at 37 149.2 0)
+			(layer "F.Cu")
+			(uuid "3dcf8d10-b819-4e97-a450-3f9ed3a9c72a")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.3)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.2)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "F.Cu")
+		(uuid "7282c6d5-2d39-4b76-a402-ccd160c29a29")
+		(pts
+			(xy 160 152) (xy 137 152)
+		)
+		(height 0)
+		(gr_text "23.0000 mm"
+			(at 148.5 150.2 0)
+			(layer "F.Cu")
+			(uuid "7282c6d5-2d39-4b76-a402-ccd160c29a29")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.3)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.2)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
 	)
 	(group ""
 		(uuid "475a8461-81db-4151-b350-ae4e75f4cccf")
