@@ -282,6 +282,15 @@
 					(hide yes)
 				)
 			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "LED diode"
 				(at 0 0 0)
 				(effects
@@ -6545,6 +6554,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 130.81 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3dc03993-1a46-4681-96b9-e3df833f815b")
 		)
@@ -6586,7 +6604,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LINE_F_FOOT_LIB:TB6612FNG_LINE"
+		(property "Footprint" "ROB-14450:MODULE_ROB-14450"
 			(at 231.14 92.71 0)
 			(effects
 				(font
