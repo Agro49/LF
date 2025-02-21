@@ -125,13 +125,13 @@
 	(footprint "LINE_F_FOOT_LIB:BATTERY_LINE_XT60"
 		(layer "F.Cu")
 		(uuid "0149dee2-b94f-45fa-83ba-cfee23f501f1")
-		(at -74 109.23)
+		(at -81.5 109.05)
 		(property "Reference" "BT1"
 			(at 0 -0.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "8e962a2e-db2c-429a-8f03-9968d41c9955")
+			(uuid "b979fc75-4fad-426d-9907-b1ea4176b3a7")
 			(effects
 				(font
 					(size 1 1)
@@ -143,7 +143,7 @@
 			(at 0 1 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "89fd0547-7a9e-4a93-a552-9c14126041ff")
+			(uuid "4ae05d69-b280-4969-973e-20b90d43f3c1")
 			(effects
 				(font
 					(size 1 1)
@@ -156,7 +156,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ec90123c-056a-4cf9-8a8f-8ee392744e4f")
+			(uuid "4d43431e-463d-459d-a4a0-301749f662d4")
 			(effects
 				(font
 					(size 1 1)
@@ -169,7 +169,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6a460ba2-9509-4737-a730-f28c8aa70ede")
+			(uuid "45198bc4-446e-4091-a7e8-db9b50ef22d8")
 			(effects
 				(font
 					(size 1 1)
@@ -1258,12 +1258,12 @@
 	(footprint "LINE_F_FOOT_LIB:FINAL_BLACKPILL_LINE"
 		(layer "F.Cu")
 		(uuid "4ce30052-3344-4edb-aaf6-ad269d7b6d53")
-		(at -75.88 69.07)
+		(at -83.38 68.89)
 		(property "Reference" "m1"
 			(at -0.04 -23.9 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "fa42c0be-c5e6-436f-9410-d485763ca63b")
+			(uuid "be03e993-f45c-45f8-8d9c-82512cfee99c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1274,7 +1274,7 @@
 		(property "Value" "BLACKPILL"
 			(at -0.17 -0.6 90)
 			(layer "F.Fab")
-			(uuid "27701ccf-82da-4478-8f56-e2e2dd339b9c")
+			(uuid "bb3e26c4-d001-4d0f-b17f-9a4153bbe290")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1286,7 +1286,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8ac36df9-3cd0-4418-89ba-c4493bcabfed")
+			(uuid "4b567e2b-29df-4758-b0fc-73af28fc8f89")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1298,7 +1298,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "60c6f97f-f3f6-43dc-9e4d-0ed61a8e210c")
+			(uuid "3a7dfc33-2d3d-48f0-bae0-4c86d1e4ec2a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5790,6 +5790,7 @@
 			(width 0.05)
 			(type default)
 		)
+		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "08e62b6e-ce53-40d2-b3f8-55d689e35f33")
 	)
@@ -5800,6 +5801,7 @@
 			(width 0.05)
 			(type default)
 		)
+		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "0f8eb93d-cfeb-45ff-9cf8-5a32cdc08e62")
 	)
@@ -5842,6 +5844,7 @@
 			(width 0.05)
 			(type default)
 		)
+		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "2ae4978c-e308-4bb3-a72f-a139c856e831")
 	)
@@ -5862,6 +5865,7 @@
 			(width 0.05)
 			(type default)
 		)
+		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "378273be-b4c3-4283-b780-3fb2f34b70fd")
 	)
@@ -5914,6 +5918,7 @@
 			(width 0.05)
 			(type default)
 		)
+		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "53012f2c-4ddc-4aed-a6c0-63cf345439d0")
 	)
@@ -5924,6 +5929,7 @@
 			(width 0.05)
 			(type solid)
 		)
+		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "5341172b-f622-44a3-b415-f56a6ee28c7e")
 	)
@@ -5944,6 +5950,7 @@
 			(width 0.05)
 			(type default)
 		)
+		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "5c7f54a5-d3c9-43e7-a6ea-d39e5f8983d7")
 	)
@@ -5954,6 +5961,7 @@
 			(width 0.05)
 			(type default)
 		)
+		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "5ffdd343-0d23-44fe-bf98-af014d9076bf")
 	)
@@ -5975,6 +5983,7 @@
 			(width 0.05)
 			(type default)
 		)
+		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "66c1f79e-09a2-49f6-90df-8659d6d0da7c")
 	)
@@ -6000,8 +6009,8 @@
 		(uuid "709ab565-440c-47a0-80fc-53ead1f6f86b")
 	)
 	(gr_circle
-		(center -76.5 64.42)
-		(end -74.976 63.658)
+		(center -84 64.24)
+		(end -82.476 63.478)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -6156,6 +6165,7 @@
 			(width 0.05)
 			(type solid)
 		)
+		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "b0ed438f-358f-44be-bb09-ac3e2ab8c9ff")
 	)
@@ -6166,12 +6176,13 @@
 			(width 0.05)
 			(type solid)
 		)
+		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "b51dc32d-5a38-49bd-95bd-c49b440edd10")
 	)
 	(gr_circle
-		(center -76.5 49.18)
-		(end -74.976 48.418)
+		(center -84 49)
+		(end -82.476 48.238)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -6187,6 +6198,7 @@
 			(width 0.05)
 			(type solid)
 		)
+		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "ba5f63c6-9f95-4c59-9e5f-23e41b57f718")
 	)
@@ -6207,6 +6219,7 @@
 			(width 0.05)
 			(type solid)
 		)
+		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "c1c05f16-14ad-44ac-84fd-890d186ede8f")
 	)
@@ -6217,6 +6230,7 @@
 			(width 0.05)
 			(type solid)
 		)
+		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "c5dccf56-d6de-4789-abe4-245a405f6b0d")
 	)
@@ -6392,8 +6406,20 @@
 	)
 	(group ""
 		(uuid "a6add2ef-26a7-4316-bda6-bb9cbb708c9e")
+		(locked yes)
 		(members "08e62b6e-ce53-40d2-b3f8-55d689e35f33" "66c1f79e-09a2-49f6-90df-8659d6d0da7c"
 			"b0ed438f-358f-44be-bb09-ac3e2ab8c9ff" "b51dc32d-5a38-49bd-95bd-c49b440edd10"
+		)
+	)
+	(group ""
+		(uuid "c0fad165-ab0c-47b1-bacb-23cc5d454596")
+		(locked yes)
+		(members "0f8eb93d-cfeb-45ff-9cf8-5a32cdc08e62" "2ae4978c-e308-4bb3-a72f-a139c856e831"
+			"378273be-b4c3-4283-b780-3fb2f34b70fd" "53012f2c-4ddc-4aed-a6c0-63cf345439d0"
+			"5341172b-f622-44a3-b415-f56a6ee28c7e" "5c7f54a5-d3c9-43e7-a6ea-d39e5f8983d7"
+			"5ffdd343-0d23-44fe-bf98-af014d9076bf" "a6add2ef-26a7-4316-bda6-bb9cbb708c9e"
+			"ba5f63c6-9f95-4c59-9e5f-23e41b57f718" "c1c05f16-14ad-44ac-84fd-890d186ede8f"
+			"c5dccf56-d6de-4789-abe4-245a405f6b0d"
 		)
 	)
 	(embedded_fonts no)
