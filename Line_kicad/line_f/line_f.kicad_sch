@@ -6604,7 +6604,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ROB-14450:MODULE_ROB-14450"
+		(property "Footprint" "LINE_F_FOOT_LIB:TB6612FNG_LINE"
 			(at 231.14 92.71 0)
 			(effects
 				(font
