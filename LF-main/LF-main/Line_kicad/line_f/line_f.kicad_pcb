@@ -4208,7 +4208,7 @@
 	(footprint "LINE_F_FOOT_LIB:SLIDE SW"
 		(layer "F.Cu")
 		(uuid "be949639-c30a-48da-a35b-833a4b7f1ea6")
-		(at 90.91 171.3125)
+		(at 87.45 171.3125)
 		(property "Reference" "SW2"
 			(at -6.94 -3.79 0)
 			(unlocked yes)
