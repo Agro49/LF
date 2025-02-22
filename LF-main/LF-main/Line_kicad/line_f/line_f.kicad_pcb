@@ -124,7 +124,7 @@
 	(footprint "LINE_F_FOOT_LIB:BATTERY_LINE_XT60"
 		(layer "F.Cu")
 		(uuid "0149dee2-b94f-45fa-83ba-cfee23f501f1")
-		(at 41.95 141.8 -90)
+		(at 41.45 141.8 -90)
 		(property "Reference" "BT1"
 			(at 0 -0.5 270)
 			(unlocked yes)
@@ -923,6 +923,7 @@
 		(property "Reference" "MPU1"
 			(at 8.128 -17.018 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "020bf4c9-c648-4007-8927-b08ccfbb412b")
 			(effects
 				(font
@@ -2962,6 +2963,7 @@
 		(property "Reference" "m1"
 			(at -0.04 -23.9 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "47814195-1883-4ff8-8147-9dfb4782a403")
 			(effects
 				(font
