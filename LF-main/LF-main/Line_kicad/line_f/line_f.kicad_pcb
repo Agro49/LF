@@ -124,7 +124,7 @@
 	(footprint "LINE_F_FOOT_LIB:BATTERY_LINE_XT60"
 		(layer "F.Cu")
 		(uuid "0149dee2-b94f-45fa-83ba-cfee23f501f1")
-		(at 44.0375 141.9 -90)
+		(at 41.95 141.8 -90)
 		(property "Reference" "BT1"
 			(at 0 -0.5 270)
 			(unlocked yes)
@@ -1756,12 +1756,12 @@
 	(footprint "LINE_F_FOOT_LIB:battery_sw"
 		(layer "F.Cu")
 		(uuid "5330a47b-dd18-421f-a0cc-81710ecac2ac")
-		(at 51 161 -90)
+		(at 51 161.5 -90)
 		(property "Reference" "SW1"
 			(at 0.06 5.17 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "84e6d254-8d27-4440-9032-7e5e71468fce")
+			(uuid "1ccd8b89-7814-4750-a7ef-1f2d67ea6a38")
 			(effects
 				(font
 					(size 1 1)
@@ -1772,7 +1772,7 @@
 		(property "Value" "SW_SPST"
 			(at 1.5 -3.41 90)
 			(layer "F.Fab")
-			(uuid "940c5b59-e5fd-4aa8-acfd-4892045e3bd4")
+			(uuid "1ab6ef75-9f85-4a5c-bc82-da8ae56b1962")
 			(effects
 				(font
 					(size 1 1)
@@ -1784,7 +1784,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "27702f1b-d823-46de-a92e-7e1e352f56fd")
+			(uuid "e6d086f8-6037-4d13-89b7-ec88249bede6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1796,7 +1796,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "31f3cdbc-f882-4b93-94fe-68ea3b79bc51")
+			(uuid "af44155b-8862-45db-afb0-353fa35d73b6")
 			(effects
 				(font
 					(size 1.27 1.27)
