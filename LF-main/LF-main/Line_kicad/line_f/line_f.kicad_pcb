@@ -1345,7 +1345,7 @@
 	(footprint "LINE_F_FOOT_LIB:BUCK_SMD"
 		(layer "F.Cu")
 		(uuid "2b246de5-1c3e-4b08-8844-68d2926f8eae")
-		(at 112.8375 138.437 180)
+		(at 112.8375 132.437 180)
 		(property "Reference" "BUCK1"
 			(at -11.1625 -3.563 180)
 			(unlocked yes)
@@ -1764,7 +1764,7 @@
 	(footprint "LINE_F_FOOT_LIB:battery_sw"
 		(layer "F.Cu")
 		(uuid "5330a47b-dd18-421f-a0cc-81710ecac2ac")
-		(at 51 161.5 -90)
+		(at 124 161.5 -90)
 		(property "Reference" "SW1"
 			(at 0.06 5.17 90)
 			(layer "F.SilkS")
@@ -1878,7 +1878,7 @@
 	(footprint "LINE_F_FOOT_LIB:connector_motor"
 		(layer "F.Cu")
 		(uuid "5d731d25-bbd4-4b93-9288-f90aec019669")
-		(at 138.09 163.39 90)
+		(at 46.48 163.39 90)
 		(property "Reference" "M2"
 			(at 0 -0.5 90)
 			(unlocked yes)
@@ -2244,13 +2244,13 @@
 	(footprint "LINE_F_FOOT_LIB:connector_motor"
 		(layer "F.Cu")
 		(uuid "7716f02c-5a79-4a18-beef-5a6521a18741")
-		(at 36.91 163.61 -90)
+		(at 128.91 163.61 -90)
 		(property "Reference" "M3"
 			(at 0 -0.5 270)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "d209ac76-f565-4b86-a98a-1ab944544a81")
+			(uuid "6f5e7245-fd19-4520-aa92-ad289eb60296")
 			(effects
 				(font
 					(size 1 1)
@@ -2263,7 +2263,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "42404f33-7b54-4ada-8662-694fe724e04b")
+			(uuid "6883d6e6-cc77-4ac5-92e7-4aae11fbc7f4")
 			(effects
 				(font
 					(size 1 1)
@@ -2276,7 +2276,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d91ecb49-bd3e-4309-b4e1-660e9d898411")
+			(uuid "e8d69812-9d1c-4d2f-9fe9-1d9f86103da9")
 			(effects
 				(font
 					(size 1 1)
@@ -2289,7 +2289,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f3831b14-ed95-4a3d-8ecb-f57421d238da")
+			(uuid "9e78c847-b434-4ce1-8afa-4385f7f9bdd6")
 			(effects
 				(font
 					(size 1 1)
@@ -4208,7 +4208,7 @@
 	(footprint "LINE_F_FOOT_LIB:SLIDE SW"
 		(layer "F.Cu")
 		(uuid "be949639-c30a-48da-a35b-833a4b7f1ea6")
-		(at 62.91 171.3125)
+		(at 90.91 171.3125)
 		(property "Reference" "SW2"
 			(at -6.94 -3.79 0)
 			(unlocked yes)
