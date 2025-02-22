@@ -8,6 +8,7 @@
 	(property "Reference" ">NAME"
 		(at 0 -2.921 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "f1244529-ac64-4c3a-9735-390f7df03452")
 		(effects
 			(font
@@ -19,6 +20,7 @@
 	(property "Value" ">VALUE"
 		(at 0 11.557 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "de90f663-7f44-4bbe-aa9b-0b466781834f")
 		(effects
 			(font
