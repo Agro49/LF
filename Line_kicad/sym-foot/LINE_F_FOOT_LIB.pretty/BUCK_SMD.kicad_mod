@@ -1,7 +1,7 @@
 (footprint "BUCK_SMD"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -13.04 -1.27 0)
@@ -21,19 +21,6 @@
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "60185baa-e598-407d-9fea-8b0deb23597f")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at -13.04 -0.77 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "f5138467-94a0-4b3c-a1f2-985821fde688")
 		(effects
 			(font
 				(size 1 1)
@@ -75,7 +62,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "400e26a4-7103-4e9e-8831-76946116b1b3")
 	)
@@ -86,7 +73,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "236930fc-2d94-434d-a999-e612dedc91b4")
 	)
@@ -179,15 +166,15 @@
 		(uuid "3041d861-01fd-4acc-9162-2db84578c5d7")
 	)
 	(pad "3" thru_hole rect
-		(at -9.136 -10.04)
-		(size 1.29 2.76)
+		(at -9.136 -10.04 180)
+		(size 1.453 2.845)
 		(drill 0.99
-			(offset 0.001 -0.74)
+			(offset -0.0225 0.6735)
 		)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
-		(uuid "2a53a1a4-5111-4229-90ce-d79df7982fad")
+		(uuid "55b8d665-df97-4b6b-a37d-a93c8140983d")
 	)
 	(pad "4" thru_hole rect
 		(at -9.136 2.914)
@@ -200,4 +187,5 @@
 		(solder_mask_margin 0.102)
 		(uuid "96dc5de4-c201-4b70-9e74-8520c4167c44")
 	)
+	(embedded_fonts no)
 )
