@@ -7383,7 +7383,7 @@
 	)
 	(segment
 		(start 58.601 114.251)
-		(end 44.5 114.251)
+		(end 41.2486 114.251)
 		(width 0.3)
 		(layer "B.Cu")
 		(net 21)
@@ -7396,14 +7396,6 @@
 		(layer "B.Cu")
 		(net 21)
 		(uuid "c5861fe1-263c-45ee-a916-fdcd0f4ade35")
-	)
-	(segment
-		(start 44.5 114.251)
-		(end 41.2486 114.251)
-		(width 0.3)
-		(layer "B.Cu")
-		(net 21)
-		(uuid "d859af62-2285-4768-bbf8-b2588f70e938")
 	)
 	(segment
 		(start 58.79 114.062)
