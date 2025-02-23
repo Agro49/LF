@@ -6339,6 +6339,30 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "SAVE"
+		(at 36 169.842 0)
+		(layer "F.SilkS")
+		(uuid "9ad03793-c7bc-4c6c-afbd-3184f87180ac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "RUN\n"
+		(at 135 169.842 0)
+		(layer "F.SilkS")
+		(uuid "e8fe9979-4a53-4a77-9bd6-71cfa0721131")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(segment
 		(start 81.7314 152.699)
 		(end 58.648659 152.699)
